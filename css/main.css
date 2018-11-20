@@ -10,6 +10,12 @@ body{
   overflow: hidden;
 }
 
+/* my custom header styles for Culver's brand
+*/
+#header {
+    background-color: #005696;
+}
+}
 /*Header Fonts*/
 @font-face {
   font-family: 'open_sanssemibold';
@@ -171,10 +177,10 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
   float:left;
 }
 .logoContainer{
-  height:60px;
+  height:80px;
   float:right;
-  margin-top:5px;
-  width:100%;
+  margin-right:25px;
+  width:100%;    
 }
 .logoWrapper{
   height:50px;
@@ -192,8 +198,8 @@ a:hover{
   text-decoration: underline;
 }
 .logoImg{
-  max-width: 250px;
-  max-height: 50px;
+  max-width: 350px;
+  max-height: 100px;
 }
 img{
   border:none;
