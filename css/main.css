@@ -112,9 +112,9 @@ body{
   font-family: "open_sanssemibold", sans-serif;
   height:45px;
   padding-left:4px;
-  padding-top:3px;
-  font-size: 24px;
-  font-weight: 400;
+  padding-top:0px;
+  font-size: 34px;
+  font-weight: bolder;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -130,11 +130,11 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
 #subtitle{
   font-family: "open_sansregular",sans-serif;
   padding-left:4px;
-  line-height: 18px;
+  line-height: 30px;
   word-wrap:break-word;
   height:54px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: bolder;
   overflow-x: hidden;
   overflow-y: auto !important;
 }
@@ -177,13 +177,13 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
   float:left;
 }
 .logoContainer{
-  height:80px;
+  height:1px;
   float:right;
-  margin-right:25px;
-  width:100%;    
+  margin-right:18px;
+  width:10%;
 }
 .logoWrapper{
-  height:50px;
+  height:1px;
   vertical-align: middle;
 }
 .logoLink{
@@ -199,7 +199,7 @@ a:hover{
 }
 .logoImg{
   max-width: 350px;
-  max-height: 100px;
+  max-height: 110px;
 }
 img{
   border:none;
